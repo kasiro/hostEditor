@@ -78,7 +78,7 @@ class Editor extends Projector {
 require '/home/kasiro/Документы/projects/mgr/jhp_modules/mfunc.php';
 require '/home/kasiro/Документы/projects/mgr/jhp_modules/str.php';
 require '/home/kasiro/Документы/projects/mgr/jhp_modules/fs.php';
-Editor::$hostsPath = __DIR__.'/hosts';
+Editor::$hostsPath = '/etc/hosts';
 $editor = new Editor('127.0.0.1', ' ');
 $first  = @$argv[1];
 $second = @$argv[2];
